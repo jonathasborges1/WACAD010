@@ -1,0 +1,24 @@
+3) Defina DDL e DML
+
+DDL (Data Definition Language) e DML (Data Manipulation Language) são duas sublinguagens da linguagem SQL (Structured Query Language) que são usadas para interagir com bancos de dados relacionais.
+
+DDL (Linguagem de Definição de Dados) é responsável pela definição da estrutura dos dados no banco de dados. As principais instruções DDL incluem:
+
+CREATE: usada para criar objetos de banco de dados, como tabelas, índices, visões, procedimentos armazenados, funções e gatilhos.
+ALTER: usada para alterar a estrutura dos objetos existentes no banco de dados.
+DROP: usada para excluir objetos do banco de dados.
+TRUNCATE: usada para remover todos os registros de uma tabela, liberando o espaço alocado para os registros.
+RENAME: usada para renomear um objeto.
+Por outro lado, DML (Linguagem de Manipulação de Dados) é usada para manipular os dados em si. As principais instruções DML incluem:
+
+SELECT: usada para recuperar dados de uma ou mais tabelas.
+INSERT: usada para inserir novos registros em uma tabela.
+UPDATE: usada para atualizar registros existentes em uma tabela.
+DELETE: usada para excluir registros de uma tabela.
+MERGE: usada para realizar operações de inserção ou atualização (UPSERT).
+CALL: usada para chamar um subprograma em PL/SQL ou Java.
+EXPLAIN PLAN: usada para interpretar o plano de acesso aos dados.
+LOCK TABLE: usada para controle de concorrência.
+Essas instruções DDL e DML permitem que os usuários definam a estrutura dos dados e realizem operações de manipulação nesses dados, respectivamente. É importante notar que existem outras sublinguagens na linguagem SQL, como DQL (Data Query Language) e DCL (Data Control Language), que também desempenham papéis específicos na interação com bancos de dados.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

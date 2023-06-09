@@ -1,0 +1,20 @@
+2) Defina SGBD e dê exemplos
+
+SGBD (Sistema de Gerenciamento de Banco de Dados) é um software responsável pelo gerenciamento e controle dos dados em um banco de dados por meio de uma interface gráfica. 
+Ele permite a organização, acesso, manipulação, e proteção das informações de uma empresa. 
+Um SGBD facilita o gerenciamento do banco de dados, controla o acesso de usuários, define privilégios, realiza backups e restaurações, além de fornecer informações e auxiliar nas operações com os dados.
+
+Existem diferentes tipos de SGBDs, sendo os principais:
+
+SGBDs Relacionais: São os mais conhecidos e utilizados há algum tempo. Eles organizam os dados em tabelas, colunas e registros, e utilizam a linguagem SQL para executar comandos. 
+Exemplos de SGBDs relacionais são o MySQL, PostgreSQL e Microsoft SQL Server.
+
+SGBDs NoSQL: Esses sistemas, também conhecidos como "Not Only SQL", estão ganhando espaço nas organizações. 
+Eles são utilizados principalmente quando há necessidade de escalabilidade e manipulação de grandes volumes de dados. Alguns exemplos de SGBDs NoSQL são o MongoDB e o Apache Cassandra.
+
+É importante destacar que os SGBDs são diferentes dos bancos de dados em si. 
+O termo "Banco de Dados" é frequentemente usado para se referir aos SGBDs, mas tecnicamente o SGBD é o software responsável pelo gerenciamento dos bancos de dados.
+
+Em resumo, um SGBD é um sistema de software que gerencia e controla bancos de dados, oferecendo recursos para facilitar o acesso, a organização e a proteção das informações, com diferentes tipos de SGBDs disponíveis, como os relacionais e os NoSQL 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
