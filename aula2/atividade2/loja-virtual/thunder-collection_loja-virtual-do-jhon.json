@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "loja-virtual-do-jhon",
-    "dateExported": "2023-06-16T03:50:26.639Z",
+    "dateExported": "2023-06-16T05:31:33.152Z",
     "version": "1.1",
     "folders": [
         {
@@ -24,6 +24,13 @@
             "containerId": "",
             "created": "2023-06-16T01:02:20.709Z",
             "sortNum": 30000
+        },
+        {
+            "_id": "aba7fcae-7c90-4b51-a5be-5032691034e2",
+            "name": "venda",
+            "containerId": "",
+            "created": "2023-06-16T04:55:31.077Z",
+            "sortNum": 40000
         }
     ],
     "requests": [
@@ -36,12 +43,12 @@
             "method": "POST",
             "sortNum": 5000,
             "created": "2023-06-16T00:44:20.749Z",
-            "modified": "2023-06-16T01:39:28.564Z",
+            "modified": "2023-06-16T04:56:07.202Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"descricao\": \"Automovel2\"\n}",
+                "raw": "{\n  \"descricao\": \"Automovel\"\n}",
                 "form": []
             },
             "tests": []
@@ -80,6 +87,39 @@
             "tests": []
         },
         {
+            "_id": "89008078-124c-45cd-ba53-0a0271a7bccd",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "aba7fcae-7c90-4b51-a5be-5032691034e2",
+            "name": "Create Venda",
+            "url": "{{loja}}/venda",
+            "method": "POST",
+            "sortNum": 35000,
+            "created": "2023-06-16T05:03:27.298Z",
+            "modified": "2023-06-16T05:08:21.745Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"cliente_id\": \"6c3474d1-bb24-436a-9fce-b300de603863\",\n  \"produto_id\": \"276dbe7c-eddb-4e48-9bda-2355089a540b\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9a954a95-dc55-4fbc-8bb0-cb0cd318f1f4",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "aba7fcae-7c90-4b51-a5be-5032691034e2",
+            "name": "Get all Venda",
+            "url": "{{loja}}/venda",
+            "method": "GET",
+            "sortNum": 39375,
+            "created": "2023-06-16T05:08:27.476Z",
+            "modified": "2023-06-16T05:14:54.385Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
             "_id": "95e4afca-4fff-4d87-8dcf-6e0ee0b19aa7",
             "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
             "containerId": "820224c1-e062-498a-975f-c72945f37061",
@@ -89,6 +129,20 @@
             "sortNum": 40000,
             "created": "2023-06-16T00:54:32.572Z",
             "modified": "2023-06-16T00:55:53.546Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fd4246ae-332a-45b1-b827-6265eb01eb67",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "aba7fcae-7c90-4b51-a5be-5032691034e2",
+            "name": "Update Venda",
+            "url": "{{loja}}/venda/0c8a57f2-7c23-49fc-bb3e-f3349387a607",
+            "method": "PUT",
+            "sortNum": 43750,
+            "created": "2023-06-16T04:55:46.255Z",
+            "modified": "2023-06-16T05:14:31.199Z",
             "headers": [],
             "params": [],
             "tests": []
@@ -108,15 +162,138 @@
             "tests": []
         },
         {
+            "_id": "e6ca6450-c174-4188-9791-edb91aab24f9",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "aba7fcae-7c90-4b51-a5be-5032691034e2",
+            "name": "Delete Venda",
+            "url": "{{loja}}/venda/efa1afaa-0caf-420e-b4e4-a1695159cd21",
+            "method": "DELETE",
+            "sortNum": 53750,
+            "created": "2023-06-16T05:22:09.260Z",
+            "modified": "2023-06-16T05:27:36.816Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
             "_id": "f8b93082-87f9-4420-9edc-caa6d1fd5d05",
             "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
             "containerId": "5ef267dd-8475-4c73-a416-74745ee21b56",
-            "name": "Get All Produtos",
+            "name": "Get All Produto",
             "url": "{{loja}}/produto",
             "method": "GET",
             "sortNum": 60000,
             "created": "2023-06-16T01:02:31.877Z",
-            "modified": "2023-06-16T01:03:44.292Z",
+            "modified": "2023-06-16T04:54:52.290Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "03bc79e2-40bd-41fe-9416-78992230c8c1",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "4bb23704-e4e5-41d4-90a4-626fddcf62cc",
+            "name": "Create Clientes",
+            "url": "{{loja}}/cliente",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-06-16T03:53:46.393Z",
+            "modified": "2023-06-16T03:57:31.482Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n  \"nome\": \"João Silva\", \n  \"endereco\": \"Rua A, 123\", \n  \"email\": \"joao@example.com\",\n  \"data_criacao\": \"2023-06-16 00:05:10\",\n  \"data_alteracao\": \"2023-06-16 00:15:25\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5b87833a-1956-4f6c-9cb0-98aff0bb9df0",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "4bb23704-e4e5-41d4-90a4-626fddcf62cc",
+            "name": "Update Clientes",
+            "url": "{{loja}}/cliente/2487bdae-88a1-41b2-acdc-a2d7bb7dc6a9",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2023-06-16T04:02:45.092Z",
+            "modified": "2023-06-16T04:03:35.217Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n  \"nome\": \"João pedro\", \n  \"endereco\": \"Rua A, 123\", \n  \"email\": \"joao@example.com\",\n  \"data_criacao\": \"2023-06-16 00:05:10\",\n  \"data_alteracao\": \"2023-06-16 00:15:25\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a44c3899-8249-4342-81c3-188bc9137373",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "5ef267dd-8475-4c73-a416-74745ee21b56",
+            "name": "Create Produto",
+            "url": "{{loja}}/produto",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-06-16T04:38:16.768Z",
+            "modified": "2023-06-16T04:40:28.653Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n  \"descricao\": \"S9+\", \n  \"preco\": 900, \n  \"quantidade\": 8,\n  \"categoria_id\": \"7ebe965f-2d6c-48e2-90ed-dc98bd2244a0\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5d3ee53f-e617-469e-9361-fb0b0cf30d98",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "4bb23704-e4e5-41d4-90a4-626fddcf62cc",
+            "name": "Delete Clientes",
+            "url": "{{loja}}/cliente/b1068236-f9f3-443e-8fe0-598752d845cf",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2023-06-16T04:04:52.327Z",
+            "modified": "2023-06-16T04:20:27.648Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n  \"nome\": \"João pedro\", \n  \"endereco\": \"Rua A, 123\", \n  \"email\": \"joao@example.com\",\n  \"data_criacao\": \"2023-06-16 00:05:10\",\n  \"data_alteracao\": \"2023-06-16 00:15:25\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "480ba3d1-1ebe-4283-aa7c-b2e0d70f6522",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "5ef267dd-8475-4c73-a416-74745ee21b56",
+            "name": "Update Produto",
+            "url": "{{loja}}/produto/9e99a0d9-a368-4c93-9408-4170e9f04f43",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2023-06-16T04:51:20.535Z",
+            "modified": "2023-06-16T04:52:55.574Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n  \"descricao\": \"S9+\", \n  \"preco\": 800, \n  \"quantidade\": 8,\n  \"categoria_id\": \"7ebe965f-2d6c-48e2-90ed-dc98bd2244a0\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d696243b-fb24-479c-88d7-99d24dd9596c",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "5ef267dd-8475-4c73-a416-74745ee21b56",
+            "name": "Delete Produto ",
+            "url": "{{loja}}/produto/9e99a0d9-a368-4c93-9408-4170e9f04f43",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2023-06-16T04:53:53.488Z",
+            "modified": "2023-06-16T04:55:02.145Z",
             "headers": [],
             "params": [],
             "tests": []
