@@ -1,0 +1,125 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "loja-virtual-do-jhon",
+    "dateExported": "2023-06-16T03:50:26.639Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "820224c1-e062-498a-975f-c72945f37061",
+            "name": "categoria",
+            "containerId": "",
+            "created": "2023-06-15T22:52:02.307Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "4bb23704-e4e5-41d4-90a4-626fddcf62cc",
+            "name": "cliente",
+            "containerId": "",
+            "created": "2023-06-16T01:01:20.037Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "5ef267dd-8475-4c73-a416-74745ee21b56",
+            "name": "produto",
+            "containerId": "",
+            "created": "2023-06-16T01:02:20.709Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "3e0811c1-e6c4-42dc-aece-40114a969cef",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "820224c1-e062-498a-975f-c72945f37061",
+            "name": "Create Categoria",
+            "url": "{{loja}}/categoria",
+            "method": "POST",
+            "sortNum": 5000,
+            "created": "2023-06-16T00:44:20.749Z",
+            "modified": "2023-06-16T01:39:28.564Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descricao\": \"Automovel2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "471b780c-bab0-4ce7-8f75-7b201b785016",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "820224c1-e062-498a-975f-c72945f37061",
+            "name": "Get All Categoria",
+            "url": "{{loja}}/categoria",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-06-15T22:52:10.053Z",
+            "modified": "2023-06-16T00:49:18.944Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a01b6c8e-2120-4019-862c-47bd65c6caad",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "820224c1-e062-498a-975f-c72945f37061",
+            "name": "Update Categoria",
+            "url": "{{loja}}/categoria/566fa8f7-e708-4db5-95d0-8014fce1bb9f",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-06-16T00:53:08.875Z",
+            "modified": "2023-06-16T00:53:43.862Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descricao\": \"AutomovelPlus\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "95e4afca-4fff-4d87-8dcf-6e0ee0b19aa7",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "820224c1-e062-498a-975f-c72945f37061",
+            "name": "Delete Categoria",
+            "url": "{{loja}}/categoria/566fa8f7-e708-4db5-95d0-8014fce1bb9f",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-06-16T00:54:32.572Z",
+            "modified": "2023-06-16T00:55:53.546Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1e97a189-ecfc-4edd-8b54-48d28570c3fd",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "4bb23704-e4e5-41d4-90a4-626fddcf62cc",
+            "name": "Get All Clientes",
+            "url": "{{loja}}/cliente",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-06-16T01:01:40.269Z",
+            "modified": "2023-06-16T01:01:50.357Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f8b93082-87f9-4420-9edc-caa6d1fd5d05",
+            "colId": "13fc2c54-b330-4031-96af-3e8b73402391",
+            "containerId": "5ef267dd-8475-4c73-a416-74745ee21b56",
+            "name": "Get All Produtos",
+            "url": "{{loja}}/produto",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-06-16T01:02:31.877Z",
+            "modified": "2023-06-16T01:03:44.292Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
